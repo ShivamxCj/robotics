@@ -51,7 +51,7 @@ nav ul li a:not(:hover){
 .div1{
     width: 100vw;
     height: 100vh;
-     background: url("/assets/bg2.jpg!d");
+     background: url("bg2.jpg!d");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -150,7 +150,7 @@ nav ul li a:not(:hover){
 .div3{
     width: 100vw;
     height: 100vh;
-    background: url("/assets/bg3.jpg");
+    background: url("bg3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
