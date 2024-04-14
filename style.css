@@ -236,7 +236,6 @@ footer h1,h3{
     text-align: center;
 }
 .contact{
-    border: 2px solid white;
     margin-left: 8vw;
     width: 20vw;
 }
@@ -254,7 +253,6 @@ footer h1,h3{
     font-size: 1.2vmax;
 }
 .last{
-    border: 2px solid white;
     margin-left: 10vw;
     width: 30vw;
 }
@@ -272,7 +270,6 @@ footer h1,h3{
     margin-bottom: 0.5vh;
 }
 .social{
-    border: 2px solid white;
     margin-left: 10vw;
     display: flex;
     width: 20vw;
@@ -289,7 +286,6 @@ footer h1,h3{
 .foot{
     overflow: hidden;
     display: flex;
-    border: 2px solid white;
     width: 100vw;
     align-items: center;
 }
