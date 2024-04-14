@@ -1,0 +1,382 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Exo", sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+   
+}
+
+nav{
+    position: absolute;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin-left:5vw;
+    font-size: 1vmax;
+}
+nav ul li a{
+    color:white;
+}
+nav ul li a:hover{
+    color: rgb(223, 33, 230);
+    transition: 0.2s;
+}
+nav ul li a:not(:hover){
+    transition: 0.2s;
+}
+.logo{
+    height: 10vh;
+    width: 14vw;
+    margin-right: 50vw;
+    margin-left: 2vw;
+    display: block;
+    overflow-y: hidden;
+}
+.logo picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.div1{
+    width: 100vw;
+    height: 100vh;
+     background: url("/assets/bg2.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.name h1{
+    font-size: 8vmax;
+    background: linear-gradient(to right,rgb(239, 76, 228),rgb(232, 224, 67),white,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.name h2{
+    font-size: 3vmax;
+    margin-top: 5vh;
+    color: white;
+    background: linear-gradient(to right,rgb(255, 255, 255),rgb(236, 224, 52),rgb(187, 245, 111));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.name h3{
+    font-size: 2vmax;
+    color: white;
+    background: linear-gradient(to right,rgb(28, 220, 85),rgb(255, 255, 255),rgb(227, 209, 50),red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* ------------------------------------------------------------------------------------------ */
+.div2{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.div2 video{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10%;
+}
+.about h1{
+    text-align: center;
+    font-size: 3vmax;
+    background: linear-gradient(to bottom, rgb(100, 100, 100),rgb(178, 176, 176),white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about p{
+    text-align: center;
+    font-size: 1.2vmax;
+    color: white;
+}
+.para{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 10vh;
+    
+}
+.img1{
+    width: 450vw;
+    height: 60vh;
+    overflow: hidden;
+    border-radius: 80px;
+    margin-right: 8vw;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+}
+.img1 img:hover{
+    scale: 1.2;
+    transition: 0.5s;
+}
+.img1 img:not(:hover){
+    transition: 0.5s;
+}
+/* ---------------------------------------------------------------- */
+.div3{
+    width: 100vw;
+    height: 100vh;
+    background: url("/assets/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.div3 h1{
+    font-size: 4vmax;
+    text-align: center;
+    position: relative;
+    top: 5%;
+    background: linear-gradient(to bottom, rgb(100, 100, 100),rgb(178, 176, 176),white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 18%;
+}
+.box h1{
+    text-align: left;
+    font-size: 5vmax;
+    background: linear-gradient(to right,white, rgb(56, 55, 55),rgb(232, 232, 232),white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    left: 15vw;
+    margin-bottom: 3vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    position: relative;
+    left: 15vw;
+}
+form input{
+    height: 4vh;
+    padding: 0.8vw;
+    font-size: 0.9vmax;
+    margin-top: 3vh;
+    border: 3px solid white;
+    box-shadow: 0 0 5px white;
+    background-color: transparent;
+    color: white;
+    
+}
+.inputs::placeholder{
+    color: rgba(255, 255, 255, 0.482);
+}
+.submit{
+    margin-top: 2vh;
+    padding: 0.6vw;
+    width: 10vw;
+    font-size: 0.8vw;
+    background: linear-gradient(to right, black,rgba(255, 255, 255, 0.747),black);
+    border: none;
+    font-size: 1vmax;
+    font-weight: 600;
+}
+.submit:hover{
+    color: white;
+    background:transparent;
+    box-shadow: 0 0 10px 2px white;
+    transition: 0.8s;
+}
+.submit:not(:hover){
+    transition: 0.5s;
+}
+.inputs:focus{
+    border: 3px solid purple;
+}
+/* -----------------------------------footer--------------------------------- */
+footer{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(3, 3, 43);
+    display: flex;
+    overflow-y: hidden;
+}
+footer h1,h3{
+    color: white;
+    text-align: center;
+}
+.contact{
+    border: 2px solid white;
+    margin-left: 8vw;
+    width: 20vw;
+}
+.contact h3{
+    font-size: 2vmax;
+    margin-bottom: 5vh;
+}
+
+.contact i{
+    color: white;
+    font-size: 1vmax;
+}
+.contact a{
+    color: white;
+    font-size: 1.2vmax;
+}
+.last{
+    border: 2px solid white;
+    margin-left: 10vw;
+    width: 30vw;
+}
+.last h1{
+    font-size: 2.5vmax;
+    margin-bottom: 1vh;
+}
+.last hr{
+    margin-bottom: 2vh;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.last h3{
+    font-size: 1.5vmax;
+    margin-bottom: 0.5vh;
+}
+.social{
+    border: 2px solid white;
+    margin-left: 10vw;
+    display: flex;
+    width: 20vw;
+    justify-content: space-around;
+}
+.social a{
+    color: white;
+    font-size: 2.5vmax;
+}
+.social a:hover{
+    color: rgb(132, 188, 237);
+    transition: 0.54s;
+}
+.foot{
+    overflow: hidden;
+    display: flex;
+    border: 2px solid white;
+    width: 100vw;
+    align-items: center;
+}
+
+
+
+/* -------------------------for mobile phone------------------------- */
+@media screen and (max-width:400px) {
+    .logo{
+        width: 30%;
+        margin-right: 10vw;
+    }
+    nav ul li{
+        font-size: 1.5vmax;
+    }
+    .about h1{
+        font-size: 5vmax;
+    }
+    .para{
+     flex-direction: column;   
+     justify-content: center;
+     align-items: center;
+     margin-top: 4vh;
+    
+    }
+    .img1{
+        width: 60%;
+        height: 60%;
+        border-radius: 20px;
+        position: relative;
+        left: 3vw;
+        margin-bottom: 5vh;
+    }
+    .img1 img{
+        object-fit: cover;
+    }
+    .para1{
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 75%;
+        height: 40vh;
+        overflow: auto;
+        border-radius: 10px;
+    }
+    .para1::-webkit-scrollbar{
+        width:0;
+    }
+   
+    .para p{
+        font-size: 4vw;
+        padding: 5vw;
+    }
+    /* -------------------- */
+    .div3 h1{
+        font-size: 10vw;
+        top: 15%;
+        background: linear-gradient(to bottom, rgb(100, 100, 100),rgb(178, 176, 176),white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .box{
+        flex-direction: column;
+        top: 30%;
+    }
+    .box h1{
+        margin-bottom: 5vh;
+        font-size: 3vmax;
+        background: linear-gradient(to right,rgb(204, 203, 203), rgb(92, 91, 91),rgb(232, 232, 232),white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    form{
+        width: 60%;
+    }
+    form input{
+        font-size: 1.6vmax;
+        margin-top:0;
+        margin-bottom: 3vh;
+        padding: 2vw;
+        border: 1px solid white;
+    }
+    .submit{
+        width: 40%;
+        height: 2%;
+        font-size: 1.5vmax;
+        margin-top: 0.5vh;
+    }
+    .foot{
+        flex-direction: column-reverse;
+    }
+}
